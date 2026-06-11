@@ -2,7 +2,7 @@
 
 > An interactive quiz app built with React.js — test your JavaScript knowledge with 10 questions, live scoring, and instant feedback.
 
-**Author:** Bushra Zahid  
+**Author:** Bushra Shabbir  
 **Live Demo:** https://test-app-phi-cyan.vercel.app/
 
 ---
