@@ -1,8 +1,7 @@
 # React Quiz App
 
 > An interactive quiz app built with React.js — test your JavaScript knowledge with 10 questions, live scoring, and instant feedback.
-
-**Author:** Bushra Shabbir  
+  
 **Live Demo:** https://test-app-phi-cyan.vercel.app/
 
 ---
@@ -37,17 +36,21 @@
 
 ### Installation & Run
 
-# Clone the Repository
+```bash
+### Clone the repository
 git clone https://github.com/Bushra3895/test-app.git
 
-# Navigate to the Project Directory
+### Go into the project folder
 cd test-app
 
-# Install Dependencies
+### Install dependencies
 npm install
 
-# Start the Development Server
+### Run locally
 npm start
+```
+
+App will open at http://localhost:3000
 
 ---
 
@@ -75,6 +78,7 @@ src/
 5. After all 10 questions, Result screen shows your score
 
 ---
+**Author:** Bushra Shabbir
 
 ## License
 
