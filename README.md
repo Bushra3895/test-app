@@ -37,21 +37,17 @@
 
 ### Installation & Run
 
-```bash
-# Clone the repository
+# Clone the Repository
 git clone https://github.com/Bushra3895/test-app.git
 
-# Go into the project folder
+# Navigate to the Project Directory
 cd test-app
 
-# Install dependencies
+# Install Dependencies
 npm install
 
-# Run locally
+# Start the Development Server
 npm start
-```
-
-App will open at http://localhost:3000
 
 ---
 
