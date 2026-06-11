@@ -1,8 +1,9 @@
 # React Quiz App
 
-An interactive quiz app built with **React.js** — test your JavaScript knowledge with 10 questions, live scoring, and instant feedback.
+> An interactive quiz app built with React.js — test your JavaScript knowledge with 10 questions, live scoring, and instant feedback.
 
-🔗 **Live Demo:** [https://test-app-phi-cyan.vercel.app/](https://test-app-phi-cyan.vercel.app/)
+**Author:** Bushra Zahid  
+**Live Demo:** https://test-app-phi-cyan.vercel.app/
 
 ---
 
@@ -20,14 +21,23 @@ An interactive quiz app built with **React.js** — test your JavaScript knowled
 
 ## Tech Stack
 
-- React.js
-- CSS3 (custom styling, no external UI library)
-- JavaScript (ES6+)
+| Technology | Usage |
+|------------|-------|
+| React.js   | Frontend framework |
+| CSS3       | Custom styling |
+| JavaScript (ES6+) | App logic |
 
 ---
 
 ## Getting Started
 
+### Prerequisites
+- Node.js installed on your machine
+- npm (comes with Node.js)
+
+### Installation & Run
+
+```bash
 # Clone the repository
 git clone https://github.com/Bushra3895/test-app.git
 
@@ -39,6 +49,7 @@ npm install
 
 # Run locally
 npm start
+```
 
 App will open at http://localhost:3000
 
@@ -46,6 +57,7 @@ App will open at http://localhost:3000
 
 ## Project Structure
 
+```
 src/
 ├── components/
 │   ├── Quiz.jsx       — main quiz logic and layout
@@ -54,6 +66,17 @@ src/
 │   └── Result.jsx     — final score screen
 ├── App.js             — root component
 └── App.css            — all styling
+```
+
+---
+
+## How It Works
+
+1. Quiz starts with Question 1 of 10
+2. Each question has a 20-second timer
+3. Select an answer — correct shows green, wrong shows red
+4. Click Next to move to the next question
+5. After all 10 questions, Result screen shows your score
 
 ---
 
