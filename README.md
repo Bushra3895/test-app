@@ -43,15 +43,13 @@ src/
 ```
 
 ---
+## 📸 Screenshots
 # test-app
-
-## Screenshots
-
 <p align="center">
-  <img src="test-app.PNG" alt="Home Page" width="45%">
-  <img src="result-page.PNG" alt="Result Page" width="45%">
+  <img src="test-app.PNG" alt="Quiz Page" width="45%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="result-page.PNG" alt="Result Page" width="45%" />
 </p>
----
 
 ## Getting Started
 
