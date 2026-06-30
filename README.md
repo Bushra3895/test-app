@@ -27,6 +27,31 @@
 | JavaScript (ES6+) | App logic |
 
 ---
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Quiz.jsx       — main quiz logic and layout
+│   ├── Question.jsx   — renders the question text
+│   ├── Options.jsx    — renders answer buttons with highlights
+│   └── Result.jsx     — final score screen
+├── App.js             — root component
+└── App.css            — all styling
+```
+
+---
+# test-app
+
+## Screenshots
+
+<p align="center">
+  <img src="test-app.PNG" alt="Home Page" width="45%">
+  <img src="result-page.PNG" alt="Result Page" width="45%">
+</p>
+---
 
 ## Getting Started
 
@@ -51,23 +76,6 @@ npm start
 ```
 
 App will open at http://localhost:3000
-
----
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Quiz.jsx       — main quiz logic and layout
-│   ├── Question.jsx   — renders the question text
-│   ├── Options.jsx    — renders answer buttons with highlights
-│   └── Result.jsx     — final score screen
-├── App.js             — root component
-└── App.css            — all styling
-```
-
----
 
 ## How It Works
 
